@@ -1,0 +1,115 @@
+/* ======= Base Styles ======= */
+body {
+  font-family: 'Lato', sans-serif;
+  color: #434343;
+  background: #DAE3E7;
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #778492;
+  margin: 0 0 10px 0;
+}
+
+a {
+  color: #3AAA64;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #2d844e;
+  text-decoration: underline;
+}
+
+/* ======= Header ======= */
+header {
+  padding: 30px 0;
+  text-align: center;
+  background: black; /* very pale red → very pale yellow */
+  color: whitesmoke;
+}
+
+header img.profile-image {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+header h2 {
+  font-size: 24px;
+  color: #778492;
+  margin-bottom: 15px;
+}
+
+header ul.social {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+header ul.social li a {
+  color: #3AAA64;
+}
+
+/* ======= Sections ======= */
+section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 20px auto;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  filter: brightness(1.1);
+}
+
+section h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+section ul {
+  list-style: disc inside;
+  padding-left: 0;
+}
+
+section ul li {
+  margin-bottom: 5px;
+}
+
+/* About Me - purple → pink */
+#about {
+  background: linear-gradient(135deg, #e6d9f5, #ffd3e6); /* pale lavender → pale pink */
+  color: black;
+}
+
+/* Projects - orange → coral */
+#projects {
+  background: linear-gradient(135deg, #ffe5cc, #ffebd6); /* pale orange → pale peach */
+  color: black;
+}
+
+/* Skills - teal → green */
+#skills {
+  background: linear-gradient(135deg, #ccefe6, #e6ffea); /* pale teal → very light green */
+  color: black;
+}
+
+/* Contact - lavender → gold */
+#contact {
+  background: linear-gradient(135deg, #eee0f5, #fff9d6); /* pale lavender → pale yellow */
+  color: black;
+}
